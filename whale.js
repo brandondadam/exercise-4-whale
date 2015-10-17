@@ -1,3 +1,4 @@
 jQuery(document).ready(function($){
-	console.log(location.hash)
+		var num = parseInt(loaction.hash.substr(1));
+		console.log(num);
 });
